@@ -5,7 +5,7 @@ import random
 
 ### INPUT VALUES ###
 image_files = ['test_ferro.png', 'face.bmp', 'face_old.bmp', 'gun.bmp', 'test.bmp']
-size_filter_thresh = 20
+size_filter_thresh = 100
 
 
 
