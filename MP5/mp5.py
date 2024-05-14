@@ -199,4 +199,4 @@ for file in files:
     # Compare to OpenCV
     edges_cv2 = cv2.Canny(image, threshold1=T_low, threshold2=T_high)
     print('Displaying OpenCV edge detection output.')
-    show_image(edges, file, 'edges_cv2_out')
+    show_image(edges_cv2, file, 'edges_cv2_out')
